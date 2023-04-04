@@ -1,0 +1,38 @@
+.content {
+    .backgroundImage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+
+    button {
+        cursor: pointer;
+        position: absolute;
+        bottom: 15%;
+        left: 45%;
+        font-size: 33px;
+        color: #d9d9d9;
+        font-weight: 500;
+        background: #86765D;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px #535353;
+        transition: all 0.3s ease-in-out;
+
+
+        &:hover{
+            transform: scale(1.2);
+            transition: all 0.3s ease-in-out;
+            color: darken(#5f422b, 5%);
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
